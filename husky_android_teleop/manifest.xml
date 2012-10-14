@@ -1,0 +1,16 @@
+<package>
+  <description brief="husky_android_teleop">
+
+    Provides teleoperation using the Android teleop app
+
+  </description>
+  <author>Ryan Gariepy</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/husky_teleop</url>
+  <depend package="topic_tools"/>
+  <depend package="sensor_msgs"/>
+  <depend package="compressed_image_transport"/>
+</package>
+
+

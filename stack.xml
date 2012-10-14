@@ -1,0 +1,12 @@
+<stack>
+  <description brief="husky_apps">A stack intended for app manager use. Currently contains the robot-side files for launching the Android teleop app with Husky</description>
+  <author>Maintained by Ryan Gariepy</author>
+  <license>BSD,</license>  
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/husky_apps</url>
+  <depend stack="common_msgs" /> <!-- sensor_msgs, geometry_msgs -->
+  <depend stack="image_transport_plugins" /> <!-- compressed_image_transport -->
+  <depend stack="ros" />
+  <depend stack="ros_comm" /> <!-- topic_tools, rospy -->
+
+</stack>
