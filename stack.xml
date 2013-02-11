@@ -8,5 +8,6 @@
   <depend stack="image_transport_plugins" /> <!-- compressed_image_transport -->
   <depend stack="ros" />
   <depend stack="ros_comm" /> <!-- topic_tools, rospy -->
+  <depend stack="clearpath_husky" />
 
 </stack>
